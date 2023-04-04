@@ -15,6 +15,10 @@ function SingleCountry() {
     }
   }
   getCountry()
+  },[name]);
+
+  useEffect(()=>{
+    document.title = `Countries | ${name}`
   },[name])
   return (
     <>
@@ -31,7 +35,6 @@ function SingleCountry() {
                     <li>Population:{item.population.toLocaleString()}</li>
                     <li>Region:{item.region}</li>
                     <li>Subregion:{item.subregion}</li>
-                    <li>Currency:</li>
                 </ul>
                 {item.borders && 
                 <>

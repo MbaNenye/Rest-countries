@@ -14,6 +14,9 @@ function Countries() {
     {name:"Americas",},
     {name:"Antarctica",},
   ]
+  useEffect(()=>{
+    document.title = `All Countries`
+  },[])
 
   useEffect(()=>{
     const fetchCountries = async()=>{
