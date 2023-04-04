@@ -1,4 +1,4 @@
-function Paginate({countryPerPage,totalCountry,setCurrentPage}) {
+{/*function Paginate({countryPerPage,totalCountry,setCurrentPage}) {
   const pageNumbers = [];
  for (let i = 1; i <= Math.ceil(totalCountry/countryPerPage); i++)
 
@@ -16,4 +16,4 @@ function Paginate({countryPerPage,totalCountry,setCurrentPage}) {
         </div>
   )
 }
-export default Paginate
+export default Paginate*/}
